@@ -1,138 +1,170 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="keywords"
-      content="Facial Expression Recognition, AI for Mental Health, Facial Emotion Recognition, Artificial Intelligence Mental Health, Emotion Detection using OpenCV Python, AI Emotion Recognition, Uses of Artificial Intelligence in Mental Health"
-    />
-    <meta
-      name="description"
-      content="A comprehensive repository for Facial Expression Recognition (FER) models applied in Mental Health Detection. Includes advanced AI models like Swin Transformer, CNN, ViT, and real-world applications for emotion detection."
-    />
-    <title>
-      Facial Expression Recognition (FER) for Mental Health Detection
-    </title>
-  </head>
-  <body>
-    <header>
-      <h1>Facial Expression Recognition (FER) for Mental Health Detection</h1>
-      <p>
-        Welcome to a cutting-edge repository leveraging AI and Deep Learning for
-        Mental Health Detection through Facial Expression Recognition (FER).
-      </p>
-    </header>
+# Facial Expression Recognition (FER) for Mental Health Detection
 
-    <section id="overview">
-      <h2>Overview</h2>
-      <p>
-        Mental health conditions such as <strong>anxiety</strong>,
-        <strong>depression</strong>,
-        <strong>OCD (Obsessive Compulsive Disorder)</strong>, and
-        <strong>PTSD (Post-Traumatic Stress Disorder)</strong> are rising global
-        concerns. This repository bridges the gap between early detection and
-        intervention by applying advanced AI techniques to analyze facial
-        emotions.
-      </p>
-      <ul>
-        <li>AI for Mental Health</li>
-        <li>Facial Emotion Recognition</li>
-        <li>Emotion Detection using OpenCV Python</li>
-      </ul>
-    </section>
+Welcome to the **Facial Expression Recognition (FER) for Mental Health Detection** repository. This repository provides a comprehensive suite of AI models and tools to analyze facial expressions for detecting mental health conditions such as anxiety, depression, OCD, PTSD, and more. By leveraging advanced deep learning techniques, this project aims to bridge the gap between early mental health detection and effective intervention.
 
-    <section id="models">
-      <h2>Available Models</h2>
-      <ul>
-        <li>
-          <strong>Swin Transformer:</strong> A hierarchical Transformer model
-          for real-time FER and emotion analysis.
-        </li>
-        <li>
-          <strong>Custom CNN:</strong> Lightweight convolutional neural networks
-          optimized for emotion detection.
-        </li>
-        <li>
-          <strong>ViT (Vision Transformer):</strong> FER models capturing
-          long-range dependencies in facial features.
-        </li>
-        <li>
-          Other models like MobileNet, EfficientNet, and hybrid architectures.
-        </li>
-      </ul>
-    </section>
+---
 
-    <section id="applications">
-      <h2>Applications</h2>
-      <ul>
-        <li>
-          <strong>HR Systems:</strong> Employee mental health assessment through
-          FER models.
-        </li>
-        <li>
-          <strong>Healthcare:</strong> Real-time emotion detection for early
-          mental health intervention.
-        </li>
-        <li>
-          <strong>Research:</strong> Enhancing the field of artificial
-          intelligence for mental health detection.
-        </li>
-      </ul>
-    </section>
+## 📘 Overview
 
-    <section id="installation">
-      <h2>Installation</h2>
-      <p>Follow these steps to set up the project:</p>
-      <pre>
+Facial Expression Recognition (FER) plays a crucial role in understanding human emotions and detecting early signs of mental health conditions. This repository includes:
 
-<code># Clone the repository
+- Advanced AI models like Swin Transformers, Vision Transformers (ViT), and Custom CNNs.
+- Tools for emotion analysis, such as happiness, sadness, anger, fear, and surprise.
+- Real-world applications in healthcare, human resources (HR), and mental health research.
+
+**Key Features:**
+- Emotion detection using state-of-the-art AI models.
+- Integration with mental health scoring systems.
+- Applications in HR, healthcare, and real-time analysis.
+
+---
+
+## 📂 Repository Structure
+
+```
+📦FER-for-Mental-Health-Detection
+├── 📁 Models
+│   ├── 📁 Swin_Transformer
+│   ├── 📁 Custom_CNN
+│   ├── 📁 ViT_Model
+│   └── 📁 Other_Models
+├── 📁 datasets
+├── 📁 images
+├── 📁 utilities
+├── 📄 README.md
+├── 📄 usage_guide.md
+├── 📄 LICENSE
+└── 📄 requirements.txt
+```
+
+- **Models**: Contains different subfolders for Swin Transformer, Custom CNN, ViT, and other models.
+- **datasets**: Includes FER2013, CK+, and Genius HR datasets.
+- **images**: Visualizations such as Grad-CAM, architecture diagrams, and augmented samples.
+- **utilities**: Scripts for data preprocessing, augmentation, and evaluation.
+- **usage_guide.md**: Detailed guide to using the models.
+
+---
+
+## 📚 Datasets
+
+### FER2013
+- Description: A dataset of 35,887 grayscale images labeled with seven emotions (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral).
+- Source: [FER2013 on Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge).
+
+### CK+
+- Description: A smaller dataset of 920 images with eight emotion labels.
+- Source: [CK+ Dataset Official Site](https://www.jeffcohn.net/Resources/).
+
+### Genius HR Dataset
+- Description: A real-world dataset for workplace mental health analysis.
+- Source: Proprietary dataset. Contact for access.
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.10+
+- PyTorch 2.0+
+- CUDA-enabled GPU (recommended)
+
+### Installation Steps
+```bash
+# Clone the repository
 git clone https://github.com/username/FER-for-Mental-Health-Detection.git
 
-# Navigate to the directory
-
+# Navigate to the project directory
 cd FER-for-Mental-Health-Detection
 
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+.\venv\Scripts\activate  # Windows
+
 # Install dependencies
-
-pip install -r requirements.txt</code>
-</pre>
-</section>
-
-    <section id="visualizations">
-      <h2>Key Visualizations</h2>
-      <h3>Augmented Images</h3>
-      <img
-        src="./images/augmented_images.png"
-        alt="Augmented Images from FER2013"
-      />
-      <h3>FER Architecture</h3>
-      <img src="./images/fer_architecture.png" alt="FER Model Architecture" />
-      <h3>Grad-CAM Visualizations</h3>
-      <img
-        src="./images/grad_cam_visualization.png"
-        alt="Grad-CAM Visualization"
-      />
-    </section>
-
-    <section id="citation">
-      <h2>Citation</h2>
-      <p>Please cite the following if you use this repository:</p>
-      <pre>
-
-<code>APA: Mujiyanto, M., et al. (2024). Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research, 14(6), 19016-19023.
-MLA: Mujiyanto, M., et al. "Facial Expression Recognition (FER) for Mental Health Detection." Engineering, Technology & Applied Science Research, vol. 14, no. 6, 2024, pp. 19016-19023.
-Vancouver: Mujiyanto M, et al. Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research. 2024;14(6):19016-23.</code>
-</pre>
-</section>
-
-    <footer>
-      <p>
-        &copy; 2024. Repository for Facial Expression Recognition and Mental
-        Health Detection. All rights reserved.
-      </p>
-    </footer>
-
-  </body>
-</html>
+pip install -r requirements.txt
 ```
+
+---
+
+## 💡 Models and Architectures
+
+### 1. Swin Transformer
+- **Description**: A hierarchical transformer optimized for visual tasks.
+- **Reference**: [Swin Transformer Paper](https://arxiv.org/abs/2103.14030)
+
+### 2. Custom CNN
+- **Description**: Lightweight CNN for real-time emotion detection.
+
+### 3. Vision Transformer (ViT)
+- **Description**: Captures long-range dependencies in facial features.
+- **Reference**: [ViT Paper](https://arxiv.org/abs/2010.11929)
+
+### 4. Additional Models
+- MobileNet, EfficientNet, and hybrid models will be added in future updates.
+
+---
+
+## 📷 Visualizations
+
+### Augmented Images
+![Augmented Images](./images/augmented_images.png)
+- Visualizes data augmentation techniques used to enhance model robustness.
+
+### Model Architecture
+![FER Architecture](./images/fer_architecture.png)
+- Diagram of the Swin Transformer model optimized for FER tasks.
+
+### Grad-CAM Visualizations
+![Grad-CAM Visualization](./images/grad_cam_visualization.png)
+- Highlights the facial regions influencing the model’s predictions.
+
+### Mental Health Scoring Summary
+| **Employee ID** | **Avg Confidence** | **No. of Images** | **Mental Health Score** |
+|-----------------|-------------------|-------------------|-------------------------|
+| 31              | 0.7747            | 30                | 52.03                   |
+| 39              | 0.9230            | 30                | 53.00                   |
+| 16              | 0.8943            | 30                | 53.00                   |
+| 15              | 0.6484            | 30                | 50.93                   |
+| 17              | 0.7503            | 30                | 51.07                   |
+
+---
+
+## 📈 Applications
+
+- **Human Resources**: Monitor and assess employee mental health.
+- **Healthcare**: Real-time emotion detection for mental health interventions.
+- **Research**: Enhance AI applications in mental health detection.
+
+---
+
+## 🔗 References
+
+- **FER2013 Dataset**: [FER2013 Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge)
+- **CK+ Dataset**: [CK+ Official Site](https://www.jeffcohn.net/Resources/)
+- **Swin Transformer**: [Paper on arXiv](https://arxiv.org/abs/2103.14030)
+- **Vision Transformer (ViT)**: [Paper on arXiv](https://arxiv.org/abs/2010.11929)
+
+---
+
+## 📄 Citation
+
+If you use this repository, please cite:
+
+**APA:**
+> Mujiyanto, M., et al. (2024). Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research, 14(6), 19016-19023.
+
+**MLA:**
+> Mujiyanto, M., et al. "Facial Expression Recognition (FER) for Mental Health Detection." Engineering, Technology & Applied Science Research, vol. 14, no. 6, 2024, pp. 19016-19023.
+
+**Vancouver:**
+> Mujiyanto M, et al. Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research. 2024;14(6):19016-23.
+
+---
+
+## 📧 Contact
+
+For questions or support, please contact:
+- **Email**: [mujiyanto@amikom.ac.id](mailto:mujiyanto@amikom.ac.id)
+
+
