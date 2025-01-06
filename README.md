@@ -82,7 +82,6 @@ This repository combines **Artificial Intelligence for Mental Health** with adva
 
 ### Installation Steps
 
-
 Follow these detailed steps to set up the project and avoid any errors during installation.
 
 ---
@@ -192,6 +191,7 @@ This command trains the Swin Transformer model on the FER2013 dataset with defau
 ### Troubleshooting
 
 If you encounter issues during installation:
+
 - **CUDA errors**: Ensure you have the correct version of CUDA installed.
 - **Dependency conflicts**: Manually resolve versions in `requirements.txt`.
 - **Dataset errors**: Verify that the FER2013 dataset is correctly downloaded and extracted.
@@ -201,7 +201,6 @@ If you encounter issues during installation:
 ### Installation Complete!
 
 You are now ready to explore Facial Expression Recognition for Mental Health Detection. For more information, refer to the [Usage Guide](./usage_guide.md).
-
 
 ---
 
@@ -271,7 +270,7 @@ You are now ready to explore Facial Expression Recognition for Mental Health Det
 
 This research has been published in **Engineering, Technology & Applied Science Research**, indexed in **Scopus Q2**. Below is the certification evidence:
 
-![Scopus Q2 Certification](./images/scopus-fer.jpg)
+<img src="./images/scopus-fer.jpg" alt="Scopus Q2 Certification" width="200">
 
 ### Citation Formats
 
