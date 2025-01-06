@@ -231,19 +231,19 @@ You are now ready to explore Facial Expression Recognition for Mental Health Det
 
 ### Augmented Images
 
-![Augmented Images](./images/augmented_images.png)
+![Augmented Images](./images/facial-expression-recognition-augmented-dataset.jpg)
 
 - Visualizes data augmentation techniques used to enhance model robustness.
 
 ### Model Architecture
 
-![FER Architecture](./images/fer_architecture.png)
+![FER Architecture](./images/facial-expression-recognition-swin-transformer-model-architecture.jpg)
 
 - Diagram of the Swin Transformer model optimized for **facial expression recognition**.
 
 ### Grad-CAM Visualizations
 
-![Grad-CAM Visualization](./images/grad_cam_visualization.png)
+![Grad-CAM Visualization](./images/facial-emotion-recognition-grad-cam-visualizations.jpg)
 
 - Highlights the facial regions influencing the model’s predictions.
 
@@ -271,13 +271,13 @@ You are now ready to explore Facial Expression Recognition for Mental Health Det
 
 This research has been published in **Engineering, Technology & Applied Science Research**, indexed in **Scopus Q2**. Below is the certification evidence:
 
-![Scopus Q2 Certification](./images/scopus_q2_certification.png)
+![Scopus Q2 Certification](./images/scopus-fer.jpg)
 
 ### Citation Formats
 
 **APA:**
 
-> Mujiyanto, M., et al. (2024). Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research, 14(6), 19016-19023.
+> Mujiyanto, M., Setyanto, A., Kusrini, K., & Utami, E. (2024). Swin Transformer with Enhanced Dropout and Layer-wise Unfreezing for Facial Expression Recognition in Mental Health Detection. Engineering, Technology & Applied Science Research, 14(6), 19016–19023. https://doi.org/10.48084/etasr.9139
 
 **MLA:**
 
