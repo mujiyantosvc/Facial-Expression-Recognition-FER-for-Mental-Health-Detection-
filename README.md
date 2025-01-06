@@ -1,3 +1,4 @@
+```markdown
 # Facial Expression Recognition (FER) for Mental Health Detection Using Transformer Model
 
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg?style=plastic)
@@ -9,7 +10,7 @@ Welcome to the **Facial Expression Recognition (FER) for Mental Health Detection
 
 ---
 
-## 📘 Overview OF Facial Expression Recognition Using Phyton
+## 📘 Overview of Facial Expression Recognition Using Python
 
 Mental health issues such as **anxiety**, **depression**, **OCD (Obsessive Compulsive Disorder)**, **PTSD (Post-Traumatic Stress Disorder)**, and other conditions significantly impact individuals and society. Early detection and intervention can drastically improve outcomes, and **Facial Expression Recognition (FER)** provides a non-invasive and efficient way to monitor emotional states.
 
@@ -28,14 +29,14 @@ This repository combines **Artificial Intelligence for Mental Health** with adva
 ---
 
 ## 📂 AI for Mental Health Repository Structure
-
 ```
+
 📦FER-for-Mental-Health-Detection
 ├── 📁 Models
-│   ├── 📁 Swin_Transformer
-│   ├── 📁 Custom_CNN
-│   ├── 📁 ViT_Model
-│   └── 📁 Other_Models
+│ ├── 📁 Swin_Transformer
+│ ├── 📁 Custom_CNN
+│ ├── 📁 ViT_Model
+│ └── 📁 Other_Models
 ├── 📁 datasets
 ├── 📁 images
 ├── 📁 utilities
@@ -43,7 +44,8 @@ This repository combines **Artificial Intelligence for Mental Health** with adva
 ├── 📄 usage_guide.md
 ├── 📄 LICENSE
 └── 📄 requirements.txt
-```
+
+````
 
 - **Models**: Contains different subfolders for Swin Transformer, Custom CNN, ViT, and other models.
 - **datasets**: Includes FER2013, CK+, and Genius HR datasets.
@@ -72,7 +74,7 @@ This repository combines **Artificial Intelligence for Mental Health** with adva
 
 ---
 
-## 🚀 Emotion Detection Using Python Installation
+## 🚀 Emotion Detection Installation Steps
 
 ### Prerequisites
 
@@ -80,25 +82,128 @@ This repository combines **Artificial Intelligence for Mental Health** with adva
 - PyTorch 2.0+
 - CUDA-enabled GPU (recommended)
 
-### Installation Steps
+
+### Installation
+
+Follow these detailed steps to set up the project and avoid any errors during installation.
+
+---
+
+#### 1. Clone the Repository
+
+Start by cloning the repository to your local machine and navigate into the project directory:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/FER-for-Mental-Health-Detection.git
+git clone https://github.com/mujiyantosvc/Facial-Expression-Recognition-FER-for-Mental-Health-Detection-.git
 
-# Navigate to the project directory
-cd FER-for-Mental-Health-Detection
+# Navigate into the project directory
+cd Facial-Expression-Recognition-FER-for-Mental-Health-Detection-
+````
 
-# Create a virtual environment
+---
+
+#### 2. Create a Virtual Environment
+
+It is highly recommended to use a virtual environment to manage dependencies. Run the following commands based on your operating system:
+
+```bash
+# For Linux/MacOS
+python3 -m venv venv
+source venv/bin/activate
+
+# For Windows
 python -m venv venv
-source venv/bin/activate  # Linux/MacOS
-.\venv\Scripts\activate  # Windows
+.\venv\Scripts\activate
+```
 
-# Install dependencies
+---
+
+#### 3. Update pip and Install Dependencies
+
+Ensure your `pip` is up-to-date and install all required dependencies listed in `requirements.txt`:
+
+```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ---
+
+#### 4. Verify Installation
+
+To confirm that everything is installed correctly, run the following commands:
+
+```bash
+# Check Python version
+python --version
+# Output should be Python 3.10+
+
+# Check PyTorch installation
+python -c "import torch; print(torch.__version__)"
+# Output should match the PyTorch version specified in requirements.txt
+```
+
+---
+
+#### 5. Download the FER2013 Dataset
+
+This project uses the FER2013 dataset. Follow these steps to download and prepare the dataset:
+
+```bash
+# Install Kaggle CLI
+pip install kaggle
+
+# Move your Kaggle API token to the appropriate location
+mkdir ~/.kaggle
+mv /path/to/kaggle.json ~/.kaggle/
+chmod 600 ~/.kaggle/kaggle.json
+
+# Download the FER2013 dataset
+kaggle competitions download -c challenges-in-representation-learning-facial-expression-recognition-challenge
+
+# Extract the dataset into the datasets/ folder
+mkdir datasets
+unzip challenges-in-representation-learning-facial-expression-recognition-challenge.zip -d datasets
+```
+
+---
+
+#### 6. Preprocess the Dataset
+
+Organize the dataset into train, validation, and test directories:
+
+```bash
+python utilities/preprocess_data.py
+```
+
+---
+
+#### 7. Run the Model
+
+To ensure everything is working, run the default Swin Transformer model training script:
+
+```bash
+python utilities/train_model.py --model swin_transformer --epochs 10 --batch_size 32
+```
+
+This command trains the Swin Transformer model on the FER2013 dataset with default settings.
+
+---
+
+### Troubleshooting
+
+If you encounter issues during installation:
+
+- **CUDA errors**: Ensure you have the correct version of CUDA installed.
+- **Dependency conflicts**: Manually resolve versions in `requirements.txt`.
+- **Dataset errors**: Verify that the FER2013 dataset is correctly downloaded and extracted.
+
+---
+
+### Installation Complete!
+
+You are now ready to explore Facial Expression Recognition for Mental Health Detection. For more information, refer to the [Usage Guide](./usage_guide.md).
 
 ## 💡 Models and Architectures
 
