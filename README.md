@@ -9,7 +9,7 @@ Welcome to the **Facial Expression Recognition (FER) for Mental Health Detection
 
 ---
 
-## 📘 Overview OF Facial Expression Recognition Using Phyton
+## 📘 Overview of Facial Expression Recognition Techniques Using Python
 
 Mental health issues such as **anxiety**, **depression**, **OCD (Obsessive Compulsive Disorder)**, **PTSD (Post-Traumatic Stress Disorder)**, and other conditions significantly impact individuals and society. Early detection and intervention can drastically improve outcomes, and **Facial Expression Recognition (FER)** provides a non-invasive and efficient way to monitor emotional states.
 
