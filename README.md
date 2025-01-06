@@ -4,22 +4,24 @@ Welcome to the **Facial Expression Recognition (FER) for Mental Health Detection
 
 ---
 
-## 📘 Overview
+## 📘 Overview Facial Expression Recognition 
 
-Facial Expression Recognition (FER) plays a crucial role in understanding human emotions and detecting early signs of mental health conditions. This repository includes:
+Mental health issues such as **anxiety**, **depression**, **OCD (Obsessive Compulsive Disorder)**, **PTSD (Post-Traumatic Stress Disorder)**, and other conditions significantly impact individuals and society. Early detection and intervention can drastically improve outcomes, and **Facial Expression Recognition (FER)** provides a non-invasive and efficient way to monitor emotional states. 
 
-- Advanced AI models like Swin Transformers, Vision Transformers (ViT), and Custom CNNs.
-- Tools for emotion analysis, such as happiness, sadness, anger, fear, and surprise.
-- Real-world applications in healthcare, human resources (HR), and mental health research.
+This repository combines **Artificial Intelligence for Mental Health** with advanced **Facial Emotion Recognition** techniques to identify subtle changes in expressions that indicate mental health risks. The project leverages cutting-edge models, including **Swin Transformers**, **Vision Transformers (ViT)**, and **Custom CNNs**, integrated with robust datasets such as **FER2013** and **CK+**. These models are designed to:
+
+- Recognize emotions like happiness, sadness, anger, fear, and surprise.
+- Detect early signs of mental health conditions such as **serious mental illness** and stress-related disorders.
+- Provide practical applications in **AI Emotion Recognition** for healthcare, HR, and research.
 
 **Key Features:**
-- Emotion detection using state-of-the-art AI models.
-- Integration with mental health scoring systems.
-- Applications in HR, healthcare, and real-time analysis.
+- High-accuracy emotion detection using **deep learning for facial expression recognition**.
+- Integration with **mental health scoring systems** to quantify emotional health.
+- Applications in **real-time emotion detection systems** and **emotion detection using OpenCV Python**.
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Structure AI for Mental Health
 
 ```
 📦FER-for-Mental-Health-Detection
@@ -45,23 +47,23 @@ Facial Expression Recognition (FER) plays a crucial role in understanding human 
 
 ---
 
-## 📚 Datasets
+## 📚 Datasets Facial Emotion Detection
 
 ### FER2013
-- Description: A dataset of 35,887 grayscale images labeled with seven emotions (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral).
-- Source: [FER2013 on Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge).
+- **Description**: A dataset of 35,887 grayscale images labeled with seven emotions (Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral).
+- **Source**: [FER2013 on Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge).
 
 ### CK+
-- Description: A smaller dataset of 920 images with eight emotion labels.
-- Source: [CK+ Dataset Official Site](https://www.jeffcohn.net/Resources/).
+- **Description**: A smaller dataset of 920 images with eight emotion labels.
+- **Source**: [CK+ Dataset Official Site](https://www.jeffcohn.net/Resources/).
 
 ### Genius HR Dataset
-- Description: A real-world dataset for workplace mental health analysis.
-- Source: Proprietary dataset. Contact for access.
+- **Description**: A real-world dataset for workplace mental health analysis.
+- **Source**: Proprietary dataset. Contact for access.
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation Emotion Detection Using Python
 
 ### Prerequisites
 - Python 3.10+
@@ -90,18 +92,18 @@ pip install -r requirements.txt
 ## 💡 Models and Architectures
 
 ### 1. Swin Transformer
-- **Description**: A hierarchical transformer optimized for visual tasks.
+- **Description**: A hierarchical transformer optimized for visual tasks, ideal for **facial expression recognition** and mental health detection.
 - **Reference**: [Swin Transformer Paper](https://arxiv.org/abs/2103.14030)
 
 ### 2. Custom CNN
-- **Description**: Lightweight CNN for real-time emotion detection.
+- **Description**: Lightweight CNN for real-time emotion detection, suitable for **AI Emotion Recognition** tasks.
 
 ### 3. Vision Transformer (ViT)
-- **Description**: Captures long-range dependencies in facial features.
+- **Description**: Captures long-range dependencies in facial features for robust **facial emotion recognition**.
 - **Reference**: [ViT Paper](https://arxiv.org/abs/2010.11929)
 
 ### 4. Additional Models
-- MobileNet, EfficientNet, and hybrid models will be added in future updates.
+- Includes MobileNet, EfficientNet, and hybrid architectures for **real-time emotion detection**.
 
 ---
 
@@ -113,7 +115,7 @@ pip install -r requirements.txt
 
 ### Model Architecture
 ![FER Architecture](./images/fer_architecture.png)
-- Diagram of the Swin Transformer model optimized for FER tasks.
+- Diagram of the Swin Transformer model optimized for **facial expression recognition**.
 
 ### Grad-CAM Visualizations
 ![Grad-CAM Visualization](./images/grad_cam_visualization.png)
@@ -132,9 +134,9 @@ pip install -r requirements.txt
 
 ## 📈 Applications
 
-- **Human Resources**: Monitor and assess employee mental health.
-- **Healthcare**: Real-time emotion detection for mental health interventions.
-- **Research**: Enhance AI applications in mental health detection.
+- **Human Resources**: Monitor and assess employee mental health using **AI for mental health detection**.
+- **Healthcare**: Real-time emotion detection for early mental health interventions.
+- **Research**: Advance the field of **artificial intelligence in mental health detection**.
 
 ---
 
@@ -166,5 +168,3 @@ If you use this repository, please cite:
 
 For questions or support, please contact:
 - **Email**: [mujiyanto@amikom.ac.id](mailto:mujiyanto@amikom.ac.id)
-
-
