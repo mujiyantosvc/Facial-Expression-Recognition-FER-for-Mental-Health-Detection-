@@ -3,7 +3,7 @@
 ![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg?style=plastic)
 ![PyTorch 2.0](https://img.shields.io/badge/pytorch-2.0-green.svg?style=plastic)
 ![CUDA 11](https://img.shields.io/badge/cuda-11-green.svg?style=plastic)
-![License CC BY 4.0](https://img.shields.io/badge/license-CC_BY--4.0-green.svg?style=plastic)
+![License CC BY 4.0](https://img.shields.io/badge/license-MIT-green.svg?style=plastic)
 
 Welcome to the **Facial Expression Recognition (FER) for Mental Health Detection** repository. This project leverages cutting-edge AI models, including **Swin Transformer**, to analyze facial expressions for detecting mental health conditions. For detailed insights, refer to the [research paper published in Engineering, Technology & Applied Science Research](https://doi.org/10.48084/etasr.9139), indexed in Scopus Q2.
 
