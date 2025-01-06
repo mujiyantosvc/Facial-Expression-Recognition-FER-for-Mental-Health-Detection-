@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -86,16 +85,19 @@
       <h2>Installation</h2>
       <p>Follow these steps to set up the project:</p>
       <pre>
+
 <code># Clone the repository
 git clone https://github.com/username/FER-for-Mental-Health-Detection.git
 
 # Navigate to the directory
+
 cd FER-for-Mental-Health-Detection
 
 # Install dependencies
+
 pip install -r requirements.txt</code>
-        </pre>
-    </section>
+</pre>
+</section>
 
     <section id="visualizations">
       <h2>Key Visualizations</h2>
@@ -117,11 +119,12 @@ pip install -r requirements.txt</code>
       <h2>Citation</h2>
       <p>Please cite the following if you use this repository:</p>
       <pre>
+
 <code>APA: Mujiyanto, M., et al. (2024). Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research, 14(6), 19016-19023.
 MLA: Mujiyanto, M., et al. "Facial Expression Recognition (FER) for Mental Health Detection." Engineering, Technology & Applied Science Research, vol. 14, no. 6, 2024, pp. 19016-19023.
 Vancouver: Mujiyanto M, et al. Facial Expression Recognition (FER) for Mental Health Detection. Engineering, Technology & Applied Science Research. 2024;14(6):19016-23.</code>
-        </pre>
-    </section>
+</pre>
+</section>
 
     <footer>
       <p>
@@ -129,6 +132,7 @@ Vancouver: Mujiyanto M, et al. Facial Expression Recognition (FER) for Mental He
         Health Detection. All rights reserved.
       </p>
     </footer>
+
   </body>
 </html>
 ```
