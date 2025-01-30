@@ -293,3 +293,8 @@ This research has been published in **Engineering, Technology & Applied Science 
 For questions or support, please contact:
 
 - **Email**: [mujiyanto@amikom.ac.id](mailto:mujiyanto@amikom.ac.id)
+
+### Special Credit
+
+- **Description**: Indonesia  artificial intelligence AI Developer | Website Developer | Mobile Developer | Software Developer | Software House Indonesia
+- **Reference**: [Second Vision Corp](https://secondvisioncorp.com/)
